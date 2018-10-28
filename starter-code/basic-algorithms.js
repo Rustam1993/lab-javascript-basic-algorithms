@@ -15,8 +15,8 @@ if (hacker1.length > hacker2.length) {
   console.log(`Wow, you both got equally long name, ${hacker1.length} characters`);
 }
 // Lorem ipsum generator
-let array1 = hacker1.toUpperCase().split("").join(" ");
-let array2 = hacker2.split("").reverse().join("");
+let hacker1 = "Driver";
+let hacker2 = "Nav";
 let array3 = [hacker1,hacker2];
 array3.sort();
 console.log(array3);
